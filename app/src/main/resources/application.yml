@@ -1,0 +1,11 @@
+# =========================
+# = Application Config
+# =========================
+
+server:
+    port: 8080
+
+git:
+  path: https://api.github.com/search/repositories?q=created:>%s&sort=stars&order=desc
+  result:
+    limit: 100
